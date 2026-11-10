@@ -1,0 +1,211 @@
+.p-1rem{
+    padding: 1rem;
+}
+.p-2rem{
+    padding: 2rem;
+}
+.login.login-v2 .login-header .brand{
+    color: black;
+}
+.login.login-v2 label{
+    color: black
+}
+.login.login-v2 .login-content .form-control{
+    border: 1px solid #ccc;
+}
+.bg-white-2{
+    background: rgba(255,255,255, .7);
+}
+.brand-text{
+    font-weight: bold;
+    color: #454545;
+}
+.modaltor__overlay{
+    opacity: .8;
+}
+/* Contest */
+.contest-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2; 
+    -webkit-box-orient: vertical;
+
+}
+.video_preview{
+    background: rgba(39,39,39,.4);
+    border: 1px solid rgba(39,39,39,.5);
+}
+.contestant-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+.line-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1; 
+    -webkit-box-orient: vertical;
+
+}
+.remove-icon{
+    display: block;
+    z-index: 1;
+    position: relative;
+    float: right;
+    border-radius: 50%;
+    padding: .4rem .6rem;
+    background: rgba(234, 103, 103, .8);
+    color: white;
+    top: 30px;
+}
+.remove-icon:hover{
+    cursor: pointer;
+}
+.contest-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contest-details .action{
+    /* background: rgba(255,255,255, .5); */
+    /* border-radius: 3px; */
+    padding: 3px 1rem;
+    cursor: pointer;
+    width: 10%;
+}
+.contest-title{
+    width: 35%;
+}
+.contest-summary{
+    width: 20%;
+    text-align: center;
+}
+.contest-date{
+    width: 15%;
+    text-align: center;
+}
+.contest-status{
+    width: 10%;
+    text-align: center;
+}
+.contest-creator{
+    width: 10%;
+    text-align: center;
+}
+/* Modal */
+.modal-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.modal-header .modal-close{
+    text-align: right;
+    font-weight: bold;
+    font-size: 1rem;
+    
+    cursor: pointer;
+    padding: .4rem .6rem;
+    background: rgba(255,255,255, .8);
+    /* align-items: center; */
+}
+.modal-body{
+    max-height: 600px;
+    overflow-x: auto;
+}
+.btn-md{
+    padding: .2rem 1rem;
+}
+.vuetable-body tr td{
+    vertical-align: middle;
+}
+.profile_photo{
+    border: 1px solid #ccc;
+}
+/* Inverse Mode */
+.inverse-mode{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
+}
+.widget-chart-content{
+    width: 60%;
+}
+.widget-chart-sidebar{
+    width: 40%;
+}
+/* Account List */
+.account-list{
+    display: flex;
+    flex-direction: row;
+    margin: .5rem .5rem 1rem .5rem;
+    padding: .5rem;
+    border-bottom: 1px solid rgba(255,255,255, .2);
+}
+.account-list:hover{
+    background: rgba(255,255,255, .2);
+    cursor: pointer;
+}
+.account-list .account-action{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account-list .account-action i{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+.account-list .account-name{
+    width: 35%;
+}
+.account-list .account-status{
+    width: 20%;
+}
+.account-list .account-type{
+    width: 15%;
+}
+.account-list .account-date{
+    width: 20%;
+    text-align: right;
+}
+/* Country */
+.country-list{
+    display: flex;
+    flex-direction: row;
+    margin: .5rem .5rem 1rem .5rem;
+    padding: .5rem;
+    border-bottom: 1px solid rgba(0,0,0, .6);
+}
+.country-list:hover{
+    background: rgba(0,0,0, .5);
+    cursor: pointer;
+}
+.country-list .country-title{
+    width: 80%;
+}
+.country-list .country-status{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Label */
+.label{
+    font-size: .5rem;
+    padding: .3rem .5rem;
+}
+.label-success{
+    color: #fff;
+    background: #00acac;
+}
+.label-default{
+    color: #fff;
+    background: rgb(191, 203, 217);
+}

@@ -1,0 +1,19 @@
+.blank-sidebar{
+  width: 20%;
+  position: relative;
+  /* height: initial; */
+  height: calc(100vh);
+  background: rgba(0, 0, 0, .1);
+  color: #fff;
+  padding-top: 40px;
+}
+
+.form-content{
+    width: 60%;
+    position: relative;
+    /* height: initial; */
+    height: 100vh;
+    background: rgba(0, 0, 0, .1);
+    padding: 70px 100px;
+    overflow-y: auto;
+  }

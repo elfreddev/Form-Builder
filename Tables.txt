@@ -1,0 +1,57 @@
+Tables
+
+-Users
+ID
+first_name
+last_name
+username
+password
+company_id
+status (1 = active, 2 = inactive)
+
+
+
+-Company
+id
+name
+status
+
+
+-Project
+id
+name
+description
+date_created
+company_id
+status
+
+
+
+-Form
+id
+name
+effective_date_from
+effective_date_to
+project_id
+contributors (Array)
+author_id
+questionaires (Object)
+
+[
+  {
+    'element': 'input',
+    'type' : 'date',
+    'required' : '',
+    'label' : 'Date Created',
+  },
+]
+
+
+
+-Form_Answers
+id
+form_id
+questionaire_answers (Array)
+submission_date
+
+
